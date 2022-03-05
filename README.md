@@ -1,14 +1,16 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# 課題 7-2: インスタンスメソッドの追加
 
 ### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+教科書のコード8-15を参考にMatangoクラスを作成しなさい。
+ただし、コード8-15のMatangoクラスに以下のメソッドを追加すること。
+また、実行例にあわせてmainメソッドを作成しなさい。
 
-### Setup command
-N/A
+| メソッド名        | 戻り値の型    | 引数リスト        | 処理内容                              |
+|--------------|----------|--------------|-----------------------------------|
+| selfDestruct | なし       | なし           | 自爆したと表示して、このMatangoインスタンスのhpを0にする | 
 
-### Run command
-`gradle test`
-
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+### 実行例
+```
+お化けキノコAは逃げ出した!
+お化けキノコBは自爆した!
+```
